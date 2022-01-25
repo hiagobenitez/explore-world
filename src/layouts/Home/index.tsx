@@ -68,8 +68,19 @@ function HomeLayout() {
     };
   }, []);
 
+  useEffect(() => {
+    gsap.to('#animation', {
+      opacity: '0',
+      delay: 2.8,
+      ease: Expo.easeInOut,
+    });
+  });
+
   return (
     <>
+      <styles.Animation id="animation">
+        <div className="bg-loader"></div>
+      </styles.Animation>
       <styles.Container>
         <div className="parallax">
           <img id="bg" className="bg" src="./images/bg.png" alt="a" />

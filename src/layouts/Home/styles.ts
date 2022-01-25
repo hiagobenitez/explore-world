@@ -3,13 +3,13 @@ import styled from 'styled-components';
 export const Animation = styled.section`
   width: 100%;
   height: 100vh;
-
-  position: absolute;
+  pointer-events: none;
+  position: fixed;
   top: 0;
   left: 0;
   opacity: 1;
 
-  z-index: 999;
+  z-index: 4;
 
   .bg-loader {
     display: flex;

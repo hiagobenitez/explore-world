@@ -5,48 +5,55 @@ interface ContainerProps {
   url: string;
 }
 export const Container = styled.section<ContainerProps>`
-  .card {
-    width: 346px;
-    height: 421px;
+  width: 346px;
+  height: 421px;
 
-    cursor: pointer;
+  cursor: pointer;
 
-    object-fit: cover;
+  object-fit: cover;
 
-    background-image: url(${props => props.url});
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(${props => props.url});
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
-    position: relative;
+  position: relative;
 
-    &:hover {
-      transform: translateY(-2rem);
-    }
+  transition: 0.5s ease-in-out;
 
-    &::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      background: linear-gradient(to top, rgba(28, 26, 28, 1), transparent);
-      width: 100%;
-      height: 100%;
-    }
-    p {
-      color: rgba(255, 255, 255, 0.8);
-      font-size: 14px;
-      letter-spacing: 0.2rem;
-      font-weight: 500;
-      text-transform: uppercase;
-      width: 100%;
-      position: absolute;
-      bottom: 10px;
-      text-align: center;
+  &:hover {
+    filter: brightness(1.4);
+    transform: translateY(-1.5rem);
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to top, rgba(28, 26, 28, 1), transparent);
+    width: 100%;
+    height: 422px;
+  }
 
-      img {
-        margin-left: 0.8rem;
-      }
+  p {
+    position: absolute;
+
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    top: 240px;
+    right: 0;
+
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+
+    img {
+      margin-left: 0.8rem;
     }
   }
 `;

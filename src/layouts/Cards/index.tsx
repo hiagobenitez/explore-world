@@ -8,15 +8,22 @@ import { CardExplore } from '@/components/cardsService';
 function CardsSub() {
   return (
     <styles.Container>
-      <div className="transform">
-        <CardExplore url="./images/CARD1.jpg" title="explore world" />
+      <div data-aos="zoom-in-up">
+        <div className="transform">
+          <CardExplore url="./images/CARD1.jpg" title="explore world" />
+        </div>
       </div>
-      <CardExplore url="./images/CARD2.jpg" title="explore world" />
-      <div className="transform">
-        <CardExplore url="./images/CARD3.jpg" title="explore world" />
+      <div data-aos="zoom-in-up" data-aos-delay="300">
+        <CardExplore url="./images/CARD2.jpg" title="explore world" />
       </div>
-
-      <CardExplore url="./images/CARD4.jpg" title="explore world" />
+      <div data-aos="zoom-in-up">
+        <div className="transform">
+          <CardExplore url="./images/CARD3.jpg" title="explore world" />
+        </div>
+      </div>
+      <div data-aos="zoom-in-up" data-aos-delay="600">
+        <CardExplore url="./images/CARD4.jpg" title="explore world" />
+      </div>
 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae dui

@@ -18,10 +18,12 @@ export const Container = styled.section`
   .transform {
     transform: translateY(4rem);
   }
+
   p {
     width: 90%;
     font-size: 16px;
     line-height: 200%;
+    font-weight: 200;
     letter-spacing: 0.13rem;
     color: rgba(255, 255, 255, 0.5);
 

@@ -12,12 +12,10 @@ export const CardExplore = ({ url, title }: cardEpProps) => {
   return (
     <>
       <Container url={url}>
-        <div className="card" data-aos="zoom-in-up">
-          <p>
-            {title}
-            <img src="./images/IconSeta.svg" alt="" />
-          </p>
-        </div>
+        <p>
+          {title}
+          <img src="./images/IconSeta.svg" alt="" />
+        </p>
       </Container>
     </>
   );
