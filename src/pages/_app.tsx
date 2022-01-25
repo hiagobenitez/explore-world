@@ -4,12 +4,12 @@ import GlobalStyle from '@/styles/global';
 import theme from '@/styles/theme';
 import React, { useEffect } from 'react';
 
-import Aos from 'aos';
+import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    AOS.init({ duration: 1000 });
   }, []);
   return (
     <ThemeProvider theme={theme}>
