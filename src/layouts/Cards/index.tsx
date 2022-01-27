@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 import * as styles from './styles';
 
 import React, { useEffect } from 'react';
@@ -25,7 +23,7 @@ function CardsSub() {
         <CardExplore url="./images/CARD4.jpg" title="explore world" />
       </div>
 
-      <p>
+      <p data-aos="fade-up">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae dui
         elit. Suspendisse dapibus tortor eu erat tempor tristique. In ultrices
         sagittis leo vitae interdum. Curabitur at dictum sapien, consectetur

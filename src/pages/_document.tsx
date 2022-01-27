@@ -44,7 +44,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Explore World</title>
+          <title>Explore Aventure</title>
           <link
             rel="shortcut icon"
             href="./images/faviconn.svg"

@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import styled from 'styled-components';
 
 export const Container = styled.section`
@@ -20,10 +19,10 @@ export const Container = styled.section`
   }
 
   p {
-    width: 90%;
+    width: 100%;
     font-size: 16px;
     line-height: 200%;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 0.13rem;
     color: rgba(255, 255, 255, 0.5);
 

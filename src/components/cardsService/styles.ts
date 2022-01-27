@@ -47,9 +47,6 @@ export const Container = styled.section<ContainerProps>`
     top: 240px;
     right: 0;
 
-    width: 100%;
-    height: 100%;
-
     text-align: center;
 
     img {

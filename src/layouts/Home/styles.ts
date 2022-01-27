@@ -9,29 +9,36 @@ export const Animation = styled.section`
   left: 0;
   opacity: 1;
 
-  z-index: 4;
+  z-index: 5;
 
+  
   .bg-loader {
     display: flex;
     width: 100%;
     height: 100vh;
     align-items: center;
     justify-content: center;
+    padding: 0 4rem;
 
     background: #1c1a1c;
-    .logovrau {
+
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .logo {
       fill: transparent;
 
-      animation: logoman 12s ease infinite alternate;
+      animation: logoo 4s linear;
     }
-    @keyframes logoman {
+    @keyframes logoo {
       0% {
-        strokewidth: 0;
+        stroke-width: 0;
         stroke-dasharray: 1 100;
         fill: transparent;
       }
-      25% {
-        strokewidth: 1;
+      35% {
+        stroke-width: 1;
         stroke-dasharray: 100 0;
 
         fill: transparent;
@@ -40,9 +47,10 @@ export const Animation = styled.section`
       100% {
         fill: #fff;
 
-        strokewidth: 0.3;
+        stroke-width: 0.3;
       }
     }
+  }
   }
 `;
 
@@ -73,7 +81,7 @@ export const Container = styled.section`
       /* background: red; */
       width: 100%;
       height: 400px;
-      z-index: 9999;
+      z-index: 4;
     }
     img {
       position: absolute;
