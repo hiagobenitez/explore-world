@@ -61,9 +61,9 @@ export const Container = styled.section<ContainerProps>`
   &:hover {
     transform: scale(0.9);
 
-    &::before {
+    /* &::before {
       opacity: 1;
-    }
+    } */
 
     img {
       opacity: 1;

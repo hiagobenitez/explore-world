@@ -1,25 +1,7 @@
 import { CardPictures } from '@/components/cardPictures';
 import * as styles from './styles';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-import { useEffect } from 'react';
-export function PicturesLayout() {
-  gsap.registerPlugin(ScrollTrigger);
 
-  useEffect(() => {
-    gsap.to('#left', {
-      x: 130,
-      scrollTrigger: {
-        trigger: '#left',
-        start: 'center 80%',
-        end: 'bottom 0%',
-        scrub: 2,
-      },
-    });
-    return () => {
-      gsap.killTweensOf('#left');
-    };
-  }, []);
+export function PicturesLayout() {
   return (
     <>
       <styles.Container>

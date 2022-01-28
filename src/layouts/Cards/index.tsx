@@ -24,42 +24,14 @@ function CardsSub() {
       </div>
 
       <p data-aos="fade-up">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae dui
-        elit. Suspendisse dapibus tortor eu erat tempor tristique. In ultrices
-        sagittis leo vitae interdum. Curabitur at dictum sapien, consectetur
-        imperdiet turpis. Curabitur vitae augue sed dui suscipit suscipit. Duis
-        vitae ultrices dolor. Integer id ipsum at risus blandit blandit. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae dui elit.
-        Suspendisse dapibus tortor eu erat tempor tristique. In ultrices
-        sagittis leo vitae interdum. Curabitur at dictum sapien, consectetur
-        imperdiet turpis. Curabitur vitae augue sed dui suscipit suscipit. Duis
-        vitae ultrices dolor. Integer id ipsum at risus blandit blandit. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae dui elit.
-        Suspendisse dapibus tortor eu erat tempor tristique. In ultrices
-        sagittis leo vitae interdum. Curabitur at dictum sapien, consectetur
-        imperdiet turpis. Curabitur vitae augue sed dui suscipit suscipit. Duis
-        vitae ultrices dolor. Integer id ipsum at risus blandit blandit. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae dui elit.
-        Suspendisse dapibus tortor eu erat tempor tristique. In ultrices
-        sagittis leo vitae interdum. Curabitur at dictum sapien, consectetur
-        text-align-last: center; text-align-last: center; imperdiet turpis.
-        Curabitur vitae augue sed dui suscipit suscipit. Duis vitae ultrices
-        dolor. Integer id ipsum at risus blandit blandit. Lorem ipsum dolor sit
-        amet, consectetur adipiscing elit. Donec vitae dui elit. Suspendisse
-        dapibus tortor eu erat tempor tristique. In ultrices sagittis leo vitae
-        interdum. Curabitur at dictum sapien, consectetur imperdiet turpis.
-        Curabitur vitae augue sed dui suscipit suscipit. Duis vitae ultrices
-        dolor. Integer id ipsum at risus blandit blandit. Lorem ipsum dolor sit
-        amet, consectetur adipiscing elit. Donec vitae dui elit. Suspendisse
-        dapibus tortor eu erat tempor tristique. In ultrices sagittis leo vitae
-        interdum. Curabitur at dictum sapien, consectetur imperdiet turpis.
-        Curabitur vitae augue sed dui suscipit suscipit. Duis vitae ultrices
-        dolor. Integer id ipsum at risus blandit blandit. Lorem ipsum dolor sit
-        amet, consectetur adipiscing elit. Donec vitae dui elit. Suspendisse
-        dapibus tortor eu erat tempor tristique. In ultrices sagittis leo vitae
-        interdum. Curabitur at dictum sapien, consectetur imperdiet turpis.
-        Curabitur vitae augue sed dui suscipit suscipit. Duis vitae ultrices
-        dolor. Integer id ipsum at risus blandit blandit.
+        Mountain. Desert. There are many variations of passages of Lorem Ipsum
+        available, but the majority have suffered alteration in some form, by
+        injected humour, or randomised words which don’t look even slightly
+        believable. If you are going to use a passage of Lorem Ipsum, you All
+        the Lorem Ipsum gene rators on the Internet tend to hidden in the middle
+        of text. repeat predefined chunks as necessary, making this the first
+        true ge nerator on the Internet. It uses a dictionary of over 200 Latin
+        words, comb.
       </p>
     </styles.Container>
   );

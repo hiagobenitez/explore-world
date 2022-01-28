@@ -22,7 +22,7 @@ export const Container = styled.section<ContainerProps>`
   transition: 0.5s ease-in-out;
 
   &:hover {
-    filter: brightness(1.4);
+    /* filter: brightness(1.4); */
     transform: translateY(-1.5rem);
   }
   &::before {
