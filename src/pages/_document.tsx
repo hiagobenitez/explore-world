@@ -47,7 +47,7 @@ export default class MyDocument extends Document {
           <title>Explore Aventure</title>
           <link
             rel="shortcut icon"
-            href="./images/faviconn.svg"
+            href="./images/iconPage.svg"
             type="image/svg"
           />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -56,12 +56,6 @@ export default class MyDocument extends Document {
           <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
             rel="stylesheet"
-          />
-
-          <link
-            rel="shortcut icon"
-            href="./images/faviconn.svg"
-            type="image/svg"
           />
 
           <script src="js/app.js"></script>
