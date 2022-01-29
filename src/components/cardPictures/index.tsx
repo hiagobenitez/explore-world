@@ -2,7 +2,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react';
 import { Container } from './styles';
-import ReactDOM from 'react-dom';
 import Tilt from 'react-parallax-tilt';
 
 type cardEpProps = {
@@ -20,5 +19,3 @@ export const CardPictures = ({ url }: cardEpProps) => {
     </>
   );
 };
-const rootElement = document.getElementById('root');
-ReactDOM.render(<CardPictures url={''} />, rootElement);
