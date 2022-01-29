@@ -12,7 +12,7 @@ type cardEpProps = {
 export const CardPictures = ({ url }: cardEpProps) => {
   return (
     <>
-      <Tilt style={{ perspective: 1 }}>
+      <Tilt gyroscope={true}>
         <Container url={url}>
           <img src="./images/IconPictures.svg" alt="" />
         </Container>
@@ -20,3 +20,5 @@ export const CardPictures = ({ url }: cardEpProps) => {
     </>
   );
 };
+const rootElement = document.getElementById('root');
+ReactDOM.render(<CardPictures url={''} />, rootElement);
